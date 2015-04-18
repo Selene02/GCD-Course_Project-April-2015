@@ -40,5 +40,5 @@ new window. Right-click on the script (anywhere) and click on *Select All* (Ctrl
 and click on *Run Line or Selection* (Ctrl-R). The output will appear in the RGui window.
 
 To run in RStudio, click on File-> Open file. Select run_analysis.R. Highlight all the text and then
-click on the *Run* button (located in the top-right of the editing window.
+click on the *Run* button (located in the top-right of the editing window).
 
