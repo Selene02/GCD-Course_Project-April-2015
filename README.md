@@ -12,4 +12,8 @@ The goal of the course project was to to transform the original data that record
 There is only a single script to run for the analysis, run_analysis.R. Below is the basic outline of run_analsys.R.
 
 ####STEP 1
-1.  Gets the names of the features from features.txt, which measure the movements of the sujects in three dimensions (X, Y, Z).  
+1.  Gets the names of the features from features.txt, which measure the movements of the sujects in three dimensions (X, Y, Z).
+2.  Merges the training and test data into one dataset call BIGDATA.
+
+###STEP 2
+
