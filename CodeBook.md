@@ -1,4 +1,4 @@
-#Code book describing transformations to the original dataset to create tidy.txt.  
+#Code book describing transformations to the original dataset to create tidy.txt, which was creatd in R version 3.1.1 in Windows 7. 
 
 ##The columns of tidy.txt are as follows:
 - Column 1:  ID is the individual identified as a number rannging from 1 to 30.
@@ -20,7 +20,7 @@
 
 The training and test datasets were merged into one large file called BIGDATA, which also included the ID numbers and the activities.
 
-All the features including "mean" or "std" (standard deviation) in the name were extracted.
+All the features including "mean" or "std" (standard deviation) in the name were extracted.  The feature names were cleaned up by replacing mean with MEAN and std with STDEV.  Also, periods in the names were removed, which were introduced when the data were read into R.
 
 The data were then group by ID and ACTIVITY using the **group_by** function.
 
