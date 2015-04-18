@@ -7,7 +7,7 @@
 
 This project uses data orginally created in the Human Activity Recognition Using Smartphones Dataset (version 1). The goal was to transform the original data that recorded body movements in three dimensions for six activities (walking, standing, etc) into a smaller, tidy, dataset that included the average of the mean and standard deviations of each movement for each activity and each subject.
 
-There is only a single script to run:  *run_analysis.R*. Below is the basic structure of run_analsys.R.
+There is only a single script to run:  *run_analysis.R*. Below is the basic structure of run_analsys.R. Following that is information on running the script.
 
 ####STEP 1 Merge datasets
 1.  Gets the names of the features from features.txt, which measure the movements of the sujects in three dimensions (X, Y, Z).
@@ -31,5 +31,14 @@ There is only a single script to run:  *run_analysis.R*. Below is the basic stru
 2.  The data were summarized by mean
 3.  The output was written to tidy.txt.
 
+##IMPORTANT INFORMATION ABOUT RUNNING THE SCRIPT
+The script, run_analysis.R, was created using R version 3.1.1 for Windows 7 Enterprise. It ran correctly
+using RStudio (0.98.1028) and RGui 32bit. I cannot vouch for it in Linux or OS X.
 
+To run in the RGui, select File-> Open Script. Select run_analysis.R. This will open the script in a
+new window. Right-click on the script (anywhere) and click on *Select All* (Ctrl-A). Right-click again
+and click on *Run Line or Selection* (Ctrl-R). The output will appear in the RGui window.
+
+To run in RStudio, click on File-> Open file. Select run_analysis.R. Highlight all the text and then
+click on the *Run* button (located in the top-right of the editing window.
 
