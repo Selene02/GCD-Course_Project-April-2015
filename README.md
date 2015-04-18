@@ -9,4 +9,4 @@ This project uses data orginally created in the Human Activity Recognition Using
 
 The goal of the course project was to to transform the original data that recorded body movements in three dimensions for six activities (walking, standing, etc) into a a smaller, tidy, dataset that included the average of the mean and standard deviations of each movement for each activity and each subject.
 
-There is only a single script to run for the analysis, run_analysis.R. A step-by-step descrition of the program is contained at the beginning of the script. 
+There is only a single script to run for the analysis, run_analysis.R. A step-by-step descrition of the program is contained at the beginning of the script show below. It is also contained in a separate file.
