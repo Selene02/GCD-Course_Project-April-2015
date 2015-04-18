@@ -22,7 +22,7 @@ The training and test datasets were merged into one large file called BIGDATA, w
 
 All the features including "mean" or "std" (standard deviation) in the name were extracted.
 
-The data were then group by ID and ACTIVITY using the **group_by function**.
+The data were then group by ID and ACTIVITY using the **group_by** function.
 
 The mean of each feature for each indivudla (ID) and each activity was calculated using **summarize** and the **mean** function.
 
