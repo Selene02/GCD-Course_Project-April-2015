@@ -4,7 +4,7 @@ This project uses data orginally created in the Human Activity Recognition Using
 The code book describing the orginal data set is included in this repo as OriginalCodeBook.md.  It is also reproduced below.  The remainder of the text in this section assumes you have read the original code book and are familiar wit the data.
 
 
-#ORGINAL DATASET DESCRIPTION (CODE BOOK)
+##ORGINAL DATASET DESCRIPTION (CODE BOOK)
 #####*The project description and orginal data can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones*
 
 Human Activity Recognition Using Smartphones Dataset, Version 1.0
