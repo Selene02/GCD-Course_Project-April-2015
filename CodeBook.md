@@ -1,10 +1,10 @@
-#Code book describing transformations to the original dataset to create tidy.txt, which was creatd in R version 3.1.1 in Windows 7. 
+#Code book describing transformations to the original dataset to create tidy.txt, which was creatd in run_analysis.R using R version 3.1.1 for Windows 7 
 
 ##The columns of tidy.txt are as follows:
 - Column 1:  ID is the individual identified as a number rannging from 1 to 30.
 - Column 2:  ACTIVITY is the activity the person is doing when measured (ex. sitting, standing, etc.)
 - Columns 4 to 81: These are the mean of each feature for each activity for each individual.  The features quantify the movements in three dimensions represented by X, Y, and Z.
-- Each row represents and individual, and activity, and the measurements recorded for that activity.
+- Each row represents an individual, an activity, and the measurements recorded for that activity.
 
 ##Feature Descriptions
 1.  Individuals are identified by number. The range is 1 to 30.
