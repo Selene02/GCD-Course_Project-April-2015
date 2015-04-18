@@ -1,4 +1,4 @@
-#This describes transformations to the original dataset to create tidy.txt, which was creatd in run_analysis.R using R version 3.1.1 for Windows 7 
+#This describes transformations to the original dataset to create tidy.txt, which was creatd in run_analysis.R using R version 3.1.1 for Windows 7.  Additional information on the original data is contained in OriginalCodeBook.md in this repository.  You should read OriginalCodeBook.md first.
 
 ##The columns of tidy.txt are as follows:
 - Column 1:  ID is the individual identified as a number rannging from 1 to 30.
