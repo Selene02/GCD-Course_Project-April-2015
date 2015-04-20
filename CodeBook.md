@@ -19,7 +19,7 @@ Creatd using R version 3.1.1 for Windows 7.  Additional information on the origi
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-
+##Feature Transformations
 The training and test datasets were merged into one large file called BIGDATA, which also included the ID numbers and the activities.
 
 All the features including "mean" or "std" (standard deviation) in the name were extracted.  The feature names were cleaned up by replacing mean with MEAN and std with STDEV.  Also, periods in the names were removed, which were introduced when the data were read into R.
