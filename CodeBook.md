@@ -1,8 +1,6 @@
-##Code Book for run_analysis.R that creates tidy.txt
+#Code Book for run_analysis.R that creates tidy.txt
 
-
-##R version
-Creatd using R version 3.1.1 for Windows 7. Additional information on the original data is contained in OriginalCodeBook.md in this repository.  You should read OriginalCodeBook.md first.
+Creatd using R version 3.1.1 for Windows 7.  Additional information on the original data is contained in OriginalCodeBook.md in this repository.  You should read OriginalCodeBook.md first.
 
 ##The columns of tidy.txt are as follows:
 - Column 1:  ID is the individual identified as a number rannging from 1 to 30.
