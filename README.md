@@ -15,8 +15,8 @@ There is only a single script to run:  *run_analysis.R*. Below is the basic stru
 
 ####STEP 2  Data Preparation
 1.  Read in the activity data and the training data.
-2.  Rename the variables to ID and ACTIVITY from standard R names like V1 and V2.
-3.  Tacks the training and test datasets together. This creates a long data set with 10299 observations and 2 columns, ID and ACTIVITY.  
+2.  Rename the variables to "id" and "activity" from standard R names like V1 and V2.
+3.  Tacks the training and test datasets together. This creates a long data set with 10299 observations and 2 columns, id and activity.  
 4.  Combines BIGDATA with the dataset created in #3.
 
 ####STEP 3 Extract means and standard deviations
@@ -24,10 +24,10 @@ There is only a single script to run:  *run_analysis.R*. Below is the basic stru
 
 ####STEP 4  Assign Meaningful Names to Activities and Features (variables)
 1.  Changes activities from numbers to more descriptive names: walking, walking upstairs, walking downstairs, sitting, standing, laying.
-2.  The feature names are already pretty descriptive (ex. BodyGyroMag) so I just cleaned them up to make them easier to read.  This was done by changing "mean" and "std" to MEAN and STDEV and also removing periods from the names that were introduced when it was read into R.
+2.  The feature names are already pretty descriptive (ex. BodyGyroMag) so I just cleaned them up to make them easier to read.  See the codebook.md for a list of the specific changes that were made.
 
 ####STEP 5 Calculate the Mean feature for each individual and each activity
-1.  The data were grouped by ID and ACTIVITY
+1.  The data were grouped by id and activity
 2.  The data were summarized by mean
 3.  The output was written to tidy.txt.
 
